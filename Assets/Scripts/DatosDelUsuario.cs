@@ -14,6 +14,7 @@ public class DatosDelUsuario : MonoBehaviour
     {
         
          Debug.Log("Mi nombre es " + nombreUsuario + ", tengo " + edadUsuario
+
              + ", mido " + alturaUsuario + " y es " + esDonante + " que soy donante de órganos.");
     }
 
