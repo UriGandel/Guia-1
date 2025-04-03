@@ -2,17 +2,15 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Num1 : MonoBehaviour
+public class SumaYResultado : MonoBehaviour
 {
-    int num1;
+    public int num1;
+    public int num2;
     // Start is called before the first frame update
     void Start()
     {
-        num1 += 2;
-        Debug.Log(num1);
-        num1 *= num1;
-        Debug.Log(num1);
- 
+        int resultado;
+        Debug.Log("La  suma entre " + num1 + " y " + num2 + " da como resultado " + (num1 + num2));
     }
 
     // Update is called once per frame

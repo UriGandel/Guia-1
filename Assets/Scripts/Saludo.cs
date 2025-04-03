@@ -2,17 +2,13 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Num1 : MonoBehaviour
+public class Saludo : MonoBehaviour
 {
-    int num1;
+    public string nombre;
     // Start is called before the first frame update
     void Start()
     {
-        num1 += 2;
-        Debug.Log(num1);
-        num1 *= num1;
-        Debug.Log(num1);
- 
+        Debug.Log("Hola " + nombre);
     }
 
     // Update is called once per frame
