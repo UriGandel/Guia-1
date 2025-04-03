@@ -9,7 +9,6 @@ public class SumaYResultado : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        int resultado;
         Debug.Log("La  suma entre " + num1 + " y " + num2 + " da como resultado " + (num1 + num2));
     }
 
